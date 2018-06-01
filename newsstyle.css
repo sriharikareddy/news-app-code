@@ -1,0 +1,24 @@
+    body{
+    	  font-family: Aladin;
+
+    }
+ .jumbotron{   
+  background-color: lightseagreen;
+  font-family: Aladin;
+  
+   }
+   .borders{
+   box-shadow: 
+0px 8px 5px -5px RGBA(0,0,0,.6),
+inset 3px 3px 5px 0px RGBA(0,0,0,.1), 
+inset -3px -3px 5px 0px RGBA(255,255,255,.4);
+
+    padding: 20px;
+   }
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+ }
+ img{
+ 	border-radius: 10%;
+ }

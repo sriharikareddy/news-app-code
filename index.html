@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="newsstyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+<div class="container">
+  <div class="jumbotron">
+  	<div class="flex-container">
+     <h1 style="color:#345;">Know More </h1>
+     <img src="images/exp.jpg">
+    </div>
+  </div>
+  <div class="borders" ng-repeat="x in myWelcome">
+ 	<h1>{{x.title}}</h1>
+ 	<img src="{{x.urlToImage}}" class="img-responsive">
+ 	<h4>{{x.description}}</h4>
+ 	<h4>{{x.publishedAt}}</h4><br>
+  </div><br>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
